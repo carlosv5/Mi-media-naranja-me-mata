@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mi_Media_Naranja" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi media naranja me mata" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsD-yV-8u5">
+                                <rect key="frame" x="160" y="30" width="281" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aKU-yJ-IAy">
+                                <rect key="frame" x="30" y="89" width="540" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de nacimiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4E-m7-QeU">
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id6-UG-4dh">
+                                        <rect key="frame" x="0.0" y="30" width="540" height="30"/>
+                                        <state key="normal" title="Elegir"/>
+                                        <connections>
+                                            <segue destination="SuV-Fc-ml8" kind="presentation" identifier="Go Birthday" id="BBB-o5-1J6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TZ0-Za-OVt">
+                                <rect key="frame" x="30" y="159" width="540" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de enamoramiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bww-yW-pmE">
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-Fy-59L">
+                                        <rect key="frame" x="0.0" y="30" width="540" height="30"/>
+                                        <state key="normal" title="Elegir"/>
+                                        <connections>
+                                            <segue destination="hIr-Xy-OtV" kind="presentation" identifier="Go Love" id="kqO-yd-6r5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aef-km-Fok">
+                                <rect key="frame" x="258" y="249" width="84" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Calcular"/>
+                                <connections>
+                                    <action selector="calcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlk-ju-WL1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juega" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lge-R1-swW">
+                                <rect key="frame" x="40" y="329" width="520" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="naranjas" translatesAutoresizingMaskIntoConstraints="NO" id="3tI-2X-AQa">
+                                <rect key="frame" x="180" y="418" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="3nd-IJ-rRt"/>
+                                    <constraint firstAttribute="height" constant="128" id="4nM-6y-Ho9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="aKU-yJ-IAy" secondAttribute="trailing" constant="10" id="12s-in-QkN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lge-R1-swW" secondAttribute="trailing" constant="20" id="3CR-FT-qwN"/>
+                            <constraint firstItem="KsD-yV-8u5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="48U-3N-uEN"/>
+                            <constraint firstItem="3tI-2X-AQa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6ow-pJ-rit"/>
+                            <constraint firstItem="lge-R1-swW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Y2-GB-LgE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TZ0-Za-OVt" secondAttribute="trailing" constant="10" id="CBN-TN-qCe"/>
+                            <constraint firstItem="Aef-km-Fok" firstAttribute="top" secondItem="TZ0-Za-OVt" secondAttribute="bottom" constant="30" id="DD5-e8-uAm"/>
+                            <constraint firstItem="3tI-2X-AQa" firstAttribute="top" secondItem="lge-R1-swW" secondAttribute="bottom" constant="54" id="ECU-DG-eBU"/>
+                            <constraint firstItem="lge-R1-swW" firstAttribute="top" secondItem="Aef-km-Fok" secondAttribute="bottom" constant="40" id="GWH-zN-ID9"/>
+                            <constraint firstItem="lge-R1-swW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="OsU-0a-Orr"/>
+                            <constraint firstItem="Aef-km-Fok" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uj8-uS-s3b"/>
+                            <constraint firstItem="TZ0-Za-OVt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Uyf-fk-cSU"/>
+                            <constraint firstItem="KsD-yV-8u5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="dSa-Ws-tbb"/>
+                            <constraint firstItem="aKU-yJ-IAy" firstAttribute="top" secondItem="KsD-yV-8u5" secondAttribute="bottom" constant="30" id="kEg-VH-Hh6"/>
+                            <constraint firstItem="lge-R1-swW" firstAttribute="top" secondItem="Aef-km-Fok" secondAttribute="bottom" constant="70" id="nyb-jL-VIN"/>
+                            <constraint firstItem="TZ0-Za-OVt" firstAttribute="top" secondItem="aKU-yJ-IAy" secondAttribute="bottom" constant="10" id="tnz-Xf-je0"/>
+                            <constraint firstItem="aKU-yJ-IAy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="utM-bs-4O2"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="nyb-jL-VIN"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="3tI-2X-AQa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="birthdayButton" destination="id6-UG-4dh" id="UdT-ph-TKt"/>
+                        <outlet property="loveButton" destination="Ozg-Fy-59L" id="JHg-1E-2Ew"/>
+                        <outlet property="result" destination="lge-R1-swW" id="xn2-sK-tPD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-89" y="269"/>
+        </scene>
+        <!--Love View Controller-->
+        <scene sceneID="v8F-jQ-G8U">
+            <objects>
+                <viewController id="hIr-Xy-OtV" customClass="LoveViewController" customModule="Mi_Media_Naranja" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Io-fg-ie8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ru9-cl-q1g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GpO-YD-Lpk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha en la que te enamoraste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hd-rH-kTk">
+                                <rect key="frame" x="183" y="30" width="235" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="30" translatesAutoresizingMaskIntoConstraints="NO" id="qWp-Ds-JwL">
+                                <rect key="frame" x="30" y="81" width="540" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="468611441.37663001">
+                                    <!--2015-11-07 17:50:41 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-3502784716">
+                                    <!--1890-01-01 12:14:44 +0000-->
+                                </date>
+                            </datePicker>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RZc-yI-H2U">
+                                <rect key="frame" x="30" y="560" width="540" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqK-ez-2l6">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="30"/>
+                                        <state key="normal" title="Ok"/>
+                                        <connections>
+                                            <segue destination="qnq-i5-33X" kind="unwind" identifier="Ok Love" unwindAction="volver:" id="cPe-lo-GdY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXd-OK-MJW">
+                                        <rect key="frame" x="270" y="0.0" width="270" height="30"/>
+                                        <state key="normal" title="Cancelar"/>
+                                        <connections>
+                                            <segue destination="qnq-i5-33X" kind="unwind" identifier="Cancel Love" unwindAction="volver:" id="x4e-4f-1iO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orange_with_heart_in_middle" translatesAutoresizingMaskIntoConstraints="NO" id="Btp-Ob-YtJ">
+                                <rect key="frame" x="180" y="328" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="LfF-T2-BgE"/>
+                                    <constraint firstAttribute="height" constant="128" id="Ynt-L8-G4x"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Btp-Ob-YtJ" firstAttribute="top" secondItem="qWp-Ds-JwL" secondAttribute="bottom" constant="31" id="2Pt-oZ-zAO"/>
+                            <constraint firstItem="6hd-rH-kTk" firstAttribute="centerX" secondItem="GpO-YD-Lpk" secondAttribute="centerX" id="Avv-k0-slB"/>
+                            <constraint firstItem="Btp-Ob-YtJ" firstAttribute="centerX" secondItem="GpO-YD-Lpk" secondAttribute="centerX" id="Eag-on-WDd"/>
+                            <constraint firstItem="RZc-yI-H2U" firstAttribute="leading" secondItem="GpO-YD-Lpk" secondAttribute="leadingMargin" constant="10" id="EfC-aE-8pM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qWp-Ds-JwL" secondAttribute="trailing" constant="10" id="KZq-XM-1H6"/>
+                            <constraint firstItem="qWp-Ds-JwL" firstAttribute="top" secondItem="6hd-rH-kTk" secondAttribute="bottom" constant="30" id="Pca-ei-1b3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RZc-yI-H2U" secondAttribute="trailing" constant="10" id="az4-0b-7Xh"/>
+                            <constraint firstItem="qWp-Ds-JwL" firstAttribute="leading" secondItem="GpO-YD-Lpk" secondAttribute="leadingMargin" constant="10" id="ceC-8N-36s"/>
+                            <constraint firstItem="6hd-rH-kTk" firstAttribute="top" secondItem="9Io-fg-ie8" secondAttribute="bottom" constant="10" id="gMQ-x9-ogZ"/>
+                            <constraint firstItem="Ru9-cl-q1g" firstAttribute="top" secondItem="RZc-yI-H2U" secondAttribute="bottom" constant="10" id="uN5-z4-y18"/>
+                        </constraints>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="Btp-Ob-YtJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="lovePicker" destination="qWp-Ds-JwL" id="xGt-mm-dcD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y8e-WZ-gSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="qnq-i5-33X" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="627" y="706"/>
+        </scene>
+        <!--Birthday View Controller-->
+        <scene sceneID="xFp-NU-CKX">
+            <objects>
+                <viewController id="SuV-Fc-ml8" customClass="BirthdayViewController" customModule="Mi_Media_Naranja" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J0w-Bd-mEh"/>
+                        <viewControllerLayoutGuide type="bottom" id="kfr-qe-LcE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="aQF-Zz-HCX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de nacimiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dka-yJ-a3q">
+                                <rect key="frame" x="221" y="30" width="159" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="30" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3A-ut-jCE">
+                                <rect key="frame" x="30" y="91" width="540" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="-320307515.59860802">
+                                    <!--1990-11-07 17:41:24 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-3502784716">
+                                    <!--1890-01-01 12:14:44 +0000-->
+                                </date>
+                            </datePicker>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="REj-1p-qr8">
+                                <rect key="frame" x="30" y="560" width="540" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="df2-4u-u2m">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="30"/>
+                                        <state key="normal" title="Ok"/>
+                                        <connections>
+                                            <segue destination="dhW-KX-DXU" kind="unwind" identifier="Ok Birthday" unwindAction="volver:" id="nsB-uI-NLN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRh-hV-CoU">
+                                        <rect key="frame" x="270" y="0.0" width="270" height="30"/>
+                                        <state key="normal" title="Cancelar"/>
+                                        <connections>
+                                            <segue destination="dhW-KX-DXU" kind="unwind" identifier="Cancel Birthday" unwindAction="volver:" id="rbb-HD-LgL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="JED-Ax-giN">
+                                <rect key="frame" x="182" y="317" width="236" height="167"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="REj-1p-qr8" firstAttribute="leading" secondItem="aQF-Zz-HCX" secondAttribute="leadingMargin" constant="10" id="BQ0-6D-bcg"/>
+                            <constraint firstItem="m3A-ut-jCE" firstAttribute="leading" secondItem="aQF-Zz-HCX" secondAttribute="leadingMargin" constant="10" id="IfU-UA-c1F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="REj-1p-qr8" secondAttribute="trailing" constant="10" id="JwO-QL-K3d"/>
+                            <constraint firstItem="JED-Ax-giN" firstAttribute="top" secondItem="m3A-ut-jCE" secondAttribute="bottom" constant="10" id="UN3-BL-3Uw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m3A-ut-jCE" secondAttribute="trailing" constant="10" id="Un4-nq-YJR"/>
+                            <constraint firstItem="kfr-qe-LcE" firstAttribute="top" secondItem="REj-1p-qr8" secondAttribute="bottom" constant="10" id="X9K-ch-bRD"/>
+                            <constraint firstItem="JED-Ax-giN" firstAttribute="top" secondItem="m3A-ut-jCE" secondAttribute="bottom" constant="10" id="YGh-9A-UmV"/>
+                            <constraint firstItem="dka-yJ-a3q" firstAttribute="centerX" secondItem="aQF-Zz-HCX" secondAttribute="centerX" id="eaJ-8V-WDH"/>
+                            <constraint firstItem="dka-yJ-a3q" firstAttribute="top" secondItem="J0w-Bd-mEh" secondAttribute="bottom" constant="10" id="lEZ-7M-bet"/>
+                            <constraint firstItem="m3A-ut-jCE" firstAttribute="top" secondItem="dka-yJ-a3q" secondAttribute="bottom" constant="40" id="qtT-qD-WIQ"/>
+                            <constraint firstItem="JED-Ax-giN" firstAttribute="top" secondItem="m3A-ut-jCE" secondAttribute="bottom" constant="10" id="uWM-gR-QAv"/>
+                            <constraint firstItem="JED-Ax-giN" firstAttribute="centerX" secondItem="aQF-Zz-HCX" secondAttribute="centerX" id="zvv-vk-Rnj"/>
+                        </constraints>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="JED-Ax-giN"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="birthdayPicker" destination="m3A-ut-jCE" id="01X-Ym-yYZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4eO-W9-x3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="dhW-KX-DXU" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="683" y="-16"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" width="236" height="167"/>
+        <image name="naranjas" width="464" height="465"/>
+        <image name="orange_with_heart_in_middle" width="1000" height="993"/>
+    </resources>
+</document>

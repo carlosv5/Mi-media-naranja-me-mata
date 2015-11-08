@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85EB0D01BEE6DAA005C49AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85EB0CF1BEE6DAA005C49AB /* AppDelegate.swift */; };
+		B85EB0D21BEE6DAA005C49AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85EB0D11BEE6DAA005C49AB /* ViewController.swift */; };
+		B85EB0D51BEE6DAA005C49AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85EB0D31BEE6DAA005C49AB /* Main.storyboard */; };
+		B85EB0D71BEE6DAA005C49AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85EB0D61BEE6DAA005C49AB /* Assets.xcassets */; };
+		B85EB0DA1BEE6DAA005C49AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85EB0D81BEE6DAA005C49AB /* LaunchScreen.storyboard */; };
+		B85EB0E51BEE6DAA005C49AB /* Mi_Media_NaranjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85EB0E41BEE6DAA005C49AB /* Mi_Media_NaranjaTests.swift */; };
+		B85EB0F01BEE6DAA005C49AB /* Mi_Media_NaranjaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85EB0EF1BEE6DAA005C49AB /* Mi_Media_NaranjaUITests.swift */; };
+		B85EB0FE1BEE701D005C49AB /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85EB0FD1BEE701D005C49AB /* BirthdayViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B85EB1001BEE71C7005C49AB /* LoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85EB0FF1BEE71C7005C49AB /* LoveViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B85EB0E11BEE6DAA005C49AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85EB0C41BEE6DAA005C49AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85EB0CB1BEE6DAA005C49AB;
+			remoteInfo = "Mi Media Naranja";
+		};
+		B85EB0EC1BEE6DAA005C49AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85EB0C41BEE6DAA005C49AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85EB0CB1BEE6DAA005C49AB;
+			remoteInfo = "Mi Media Naranja";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B85EB0CC1BEE6DAA005C49AB /* Mi Media Naranja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi Media Naranja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85EB0CF1BEE6DAA005C49AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B85EB0D11BEE6DAA005C49AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B85EB0D41BEE6DAA005C49AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B85EB0D61BEE6DAA005C49AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B85EB0D91BEE6DAA005C49AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B85EB0DB1BEE6DAA005C49AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85EB0E01BEE6DAA005C49AB /* Mi Media NaranjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi Media NaranjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85EB0E41BEE6DAA005C49AB /* Mi_Media_NaranjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi_Media_NaranjaTests.swift; sourceTree = "<group>"; };
+		B85EB0E61BEE6DAA005C49AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85EB0EB1BEE6DAA005C49AB /* Mi Media NaranjaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi Media NaranjaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85EB0EF1BEE6DAA005C49AB /* Mi_Media_NaranjaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi_Media_NaranjaUITests.swift; sourceTree = "<group>"; };
+		B85EB0F11BEE6DAA005C49AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85EB0FD1BEE701D005C49AB /* BirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		B85EB0FF1BEE71C7005C49AB /* LoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B85EB0C91BEE6DAA005C49AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85EB0DD1BEE6DAA005C49AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85EB0E81BEE6DAA005C49AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B85EB0C31BEE6DAA005C49AB = {
+			isa = PBXGroup;
+			children = (
+				B85EB0CE1BEE6DAA005C49AB /* Mi Media Naranja */,
+				B85EB0E31BEE6DAA005C49AB /* Mi Media NaranjaTests */,
+				B85EB0EE1BEE6DAA005C49AB /* Mi Media NaranjaUITests */,
+				B85EB0CD1BEE6DAA005C49AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B85EB0CD1BEE6DAA005C49AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B85EB0CC1BEE6DAA005C49AB /* Mi Media Naranja.app */,
+				B85EB0E01BEE6DAA005C49AB /* Mi Media NaranjaTests.xctest */,
+				B85EB0EB1BEE6DAA005C49AB /* Mi Media NaranjaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B85EB0CE1BEE6DAA005C49AB /* Mi Media Naranja */ = {
+			isa = PBXGroup;
+			children = (
+				B85EB0CF1BEE6DAA005C49AB /* AppDelegate.swift */,
+				B85EB0D11BEE6DAA005C49AB /* ViewController.swift */,
+				B85EB0D31BEE6DAA005C49AB /* Main.storyboard */,
+				B85EB0D61BEE6DAA005C49AB /* Assets.xcassets */,
+				B85EB0D81BEE6DAA005C49AB /* LaunchScreen.storyboard */,
+				B85EB0DB1BEE6DAA005C49AB /* Info.plist */,
+				B85EB0FD1BEE701D005C49AB /* BirthdayViewController.swift */,
+				B85EB0FF1BEE71C7005C49AB /* LoveViewController.swift */,
+			);
+			path = "Mi Media Naranja";
+			sourceTree = "<group>";
+		};
+		B85EB0E31BEE6DAA005C49AB /* Mi Media NaranjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B85EB0E41BEE6DAA005C49AB /* Mi_Media_NaranjaTests.swift */,
+				B85EB0E61BEE6DAA005C49AB /* Info.plist */,
+			);
+			path = "Mi Media NaranjaTests";
+			sourceTree = "<group>";
+		};
+		B85EB0EE1BEE6DAA005C49AB /* Mi Media NaranjaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B85EB0EF1BEE6DAA005C49AB /* Mi_Media_NaranjaUITests.swift */,
+				B85EB0F11BEE6DAA005C49AB /* Info.plist */,
+			);
+			path = "Mi Media NaranjaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B85EB0CB1BEE6DAA005C49AB /* Mi Media Naranja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85EB0F41BEE6DAB005C49AB /* Build configuration list for PBXNativeTarget "Mi Media Naranja" */;
+			buildPhases = (
+				B85EB0C81BEE6DAA005C49AB /* Sources */,
+				B85EB0C91BEE6DAA005C49AB /* Frameworks */,
+				B85EB0CA1BEE6DAA005C49AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mi Media Naranja";
+			productName = "Mi Media Naranja";
+			productReference = B85EB0CC1BEE6DAA005C49AB /* Mi Media Naranja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B85EB0DF1BEE6DAA005C49AB /* Mi Media NaranjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85EB0F71BEE6DAB005C49AB /* Build configuration list for PBXNativeTarget "Mi Media NaranjaTests" */;
+			buildPhases = (
+				B85EB0DC1BEE6DAA005C49AB /* Sources */,
+				B85EB0DD1BEE6DAA005C49AB /* Frameworks */,
+				B85EB0DE1BEE6DAA005C49AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85EB0E21BEE6DAA005C49AB /* PBXTargetDependency */,
+			);
+			name = "Mi Media NaranjaTests";
+			productName = "Mi Media NaranjaTests";
+			productReference = B85EB0E01BEE6DAA005C49AB /* Mi Media NaranjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B85EB0EA1BEE6DAA005C49AB /* Mi Media NaranjaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85EB0FA1BEE6DAB005C49AB /* Build configuration list for PBXNativeTarget "Mi Media NaranjaUITests" */;
+			buildPhases = (
+				B85EB0E71BEE6DAA005C49AB /* Sources */,
+				B85EB0E81BEE6DAA005C49AB /* Frameworks */,
+				B85EB0E91BEE6DAA005C49AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85EB0ED1BEE6DAA005C49AB /* PBXTargetDependency */,
+			);
+			name = "Mi Media NaranjaUITests";
+			productName = "Mi Media NaranjaUITests";
+			productReference = B85EB0EB1BEE6DAA005C49AB /* Mi Media NaranjaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B85EB0C41BEE6DAA005C49AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = UPM;
+				TargetAttributes = {
+					B85EB0CB1BEE6DAA005C49AB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B85EB0DF1BEE6DAA005C49AB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B85EB0CB1BEE6DAA005C49AB;
+					};
+					B85EB0EA1BEE6DAA005C49AB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B85EB0CB1BEE6DAA005C49AB;
+					};
+				};
+			};
+			buildConfigurationList = B85EB0C71BEE6DAA005C49AB /* Build configuration list for PBXProject "Mi Media Naranja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B85EB0C31BEE6DAA005C49AB;
+			productRefGroup = B85EB0CD1BEE6DAA005C49AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B85EB0CB1BEE6DAA005C49AB /* Mi Media Naranja */,
+				B85EB0DF1BEE6DAA005C49AB /* Mi Media NaranjaTests */,
+				B85EB0EA1BEE6DAA005C49AB /* Mi Media NaranjaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B85EB0CA1BEE6DAA005C49AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85EB0DA1BEE6DAA005C49AB /* LaunchScreen.storyboard in Resources */,
+				B85EB0D71BEE6DAA005C49AB /* Assets.xcassets in Resources */,
+				B85EB0D51BEE6DAA005C49AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85EB0DE1BEE6DAA005C49AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85EB0E91BEE6DAA005C49AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B85EB0C81BEE6DAA005C49AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85EB1001BEE71C7005C49AB /* LoveViewController.swift in Sources */,
+				B85EB0D21BEE6DAA005C49AB /* ViewController.swift in Sources */,
+				B85EB0D01BEE6DAA005C49AB /* AppDelegate.swift in Sources */,
+				B85EB0FE1BEE701D005C49AB /* BirthdayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85EB0DC1BEE6DAA005C49AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85EB0E51BEE6DAA005C49AB /* Mi_Media_NaranjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85EB0E71BEE6DAA005C49AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85EB0F01BEE6DAA005C49AB /* Mi_Media_NaranjaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B85EB0E21BEE6DAA005C49AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85EB0CB1BEE6DAA005C49AB /* Mi Media Naranja */;
+			targetProxy = B85EB0E11BEE6DAA005C49AB /* PBXContainerItemProxy */;
+		};
+		B85EB0ED1BEE6DAA005C49AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85EB0CB1BEE6DAA005C49AB /* Mi Media Naranja */;
+			targetProxy = B85EB0EC1BEE6DAA005C49AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B85EB0D31BEE6DAA005C49AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85EB0D41BEE6DAA005C49AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B85EB0D81BEE6DAA005C49AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85EB0D91BEE6DAA005C49AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B85EB0F21BEE6DAA005C49AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B85EB0F31BEE6DAA005C49AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B85EB0F51BEE6DAB005C49AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mi Media Naranja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Mi-Media-Naranja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B85EB0F61BEE6DAB005C49AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mi Media Naranja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Mi-Media-Naranja";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B85EB0F81BEE6DAB005C49AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mi Media NaranjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Mi-Media-NaranjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi Media Naranja.app/Mi Media Naranja";
+			};
+			name = Debug;
+		};
+		B85EB0F91BEE6DAB005C49AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mi Media NaranjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Mi-Media-NaranjaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi Media Naranja.app/Mi Media Naranja";
+			};
+			name = Release;
+		};
+		B85EB0FB1BEE6DAB005C49AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mi Media NaranjaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Mi-Media-NaranjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mi Media Naranja";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B85EB0FC1BEE6DAB005C49AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mi Media NaranjaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.Mi-Media-NaranjaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mi Media Naranja";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B85EB0C71BEE6DAA005C49AB /* Build configuration list for PBXProject "Mi Media Naranja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85EB0F21BEE6DAA005C49AB /* Debug */,
+				B85EB0F31BEE6DAA005C49AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85EB0F41BEE6DAB005C49AB /* Build configuration list for PBXNativeTarget "Mi Media Naranja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85EB0F51BEE6DAB005C49AB /* Debug */,
+				B85EB0F61BEE6DAB005C49AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B85EB0F71BEE6DAB005C49AB /* Build configuration list for PBXNativeTarget "Mi Media NaranjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85EB0F81BEE6DAB005C49AB /* Debug */,
+				B85EB0F91BEE6DAB005C49AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B85EB0FA1BEE6DAB005C49AB /* Build configuration list for PBXNativeTarget "Mi Media NaranjaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85EB0FB1BEE6DAB005C49AB /* Debug */,
+				B85EB0FC1BEE6DAB005C49AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B85EB0C41BEE6DAA005C49AB /* Project object */;
+}
