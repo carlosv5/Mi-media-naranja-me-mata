@@ -70,7 +70,8 @@ class ViewController: UIViewController {
     @IBAction func calcular(sender: UIButton) {
         if((birthdayDate != nil) && (loveDate != nil)){
             if(loveDate!.compare(birthdayDate!) == NSComparisonResult.OrderedAscending ){
-                result.text = "Has introducido mal los datos"
+                result.text = ""
+                showAlert("Datos mal introducidos",mensaje : "Por favor, introduce datos coherentes")
             }
             else{
                 let time = loveDate!.timeIntervalSinceDate(birthdayDate!)
@@ -78,7 +79,8 @@ class ViewController: UIViewController {
                 result.text = format(fecha)
             }
         } else{
-            result.text = "Te falta por introducir datos"
+            result.text = ""
+            showAlert("Datos no introducidos", mensaje: "Por favor, introduce los datos que faltan")
         }
     }
         
@@ -93,8 +95,19 @@ class ViewController: UIViewController {
         button.setTitle(title == "" ? "Elegir" : "\(title)", forState: .Normal)
     }
     
+    func showAlert(titulo:String , mensaje:String) {
+        let alert = UIAlertController(title: titulo, message: mensaje,
+        preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction( UIAlertAction(title: "Ok",
+        style: UIAlertActionStyle.Default, handler: {(alert :UIAlertAction!) in
+        print("Se pulsó OK")
+        }))
+        // Presentar el Alert Controller:
+        presentViewController(alert, animated: true, completion: nil)
+    }
     
 }
+
 
 
 

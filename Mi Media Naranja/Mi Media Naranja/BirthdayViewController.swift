@@ -16,6 +16,7 @@ class BirthdayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        birthdayPicker.maximumDate = NSDate()
         if(date != nil){
             birthdayPicker.date = date!
         }

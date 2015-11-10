@@ -16,6 +16,7 @@ class LoveViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        lovePicker.maximumDate = NSDate()
         if(date != nil){
             lovePicker.date = date!
         }

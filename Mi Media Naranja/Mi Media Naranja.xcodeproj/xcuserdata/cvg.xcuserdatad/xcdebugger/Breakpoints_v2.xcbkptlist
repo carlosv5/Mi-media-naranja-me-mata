@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mi Media Naranja/BirthdayViewController.swift"
-            timestampString = "468622089.602307"
+            timestampString = "468871278.831285"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "prepareForSegue(_:sender:)"
             landmarkType = "5">
          </BreakpointContent>

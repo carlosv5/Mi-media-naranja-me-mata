@@ -22,19 +22,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aKU-yJ-IAy">
-                                <rect key="frame" x="30" y="89" width="540" height="60"/>
+                                <rect key="frame" x="30" y="89" width="540" height="66"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de nacimiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4E-m7-QeU">
-                                        <rect key="frame" x="0.0" y="0.0" width="540" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id6-UG-4dh">
-                                        <rect key="frame" x="0.0" y="30" width="540" height="30"/>
+                                        <rect key="frame" x="0.0" y="33" width="540" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Elegir"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        </variation>
                                         <connections>
                                             <segue destination="SuV-Fc-ml8" kind="presentation" identifier="Go Birthday" id="BBB-o5-1J6"/>
                                         </connections>
@@ -42,44 +52,57 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TZ0-Za-OVt">
-                                <rect key="frame" x="30" y="159" width="540" height="60"/>
+                                <rect key="frame" x="30" y="165" width="540" height="66"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de enamoramiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bww-yW-pmE">
-                                        <rect key="frame" x="0.0" y="0.0" width="540" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-Fy-59L">
-                                        <rect key="frame" x="0.0" y="30" width="540" height="30"/>
+                                        <rect key="frame" x="0.0" y="33" width="540" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="Elegir"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        </variation>
                                         <connections>
                                             <segue destination="hIr-Xy-OtV" kind="presentation" identifier="Go Love" id="kqO-yd-6r5"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aef-km-Fok">
-                                <rect key="frame" x="258" y="249" width="84" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Calcular"/>
-                                <connections>
-                                    <action selector="calcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlk-ju-WL1"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juega" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lge-R1-swW">
-                                <rect key="frame" x="40" y="329" width="520" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lge-R1-swW">
+                                <rect key="frame" x="40" y="343" width="520" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="naranjas" translatesAutoresizingMaskIntoConstraints="NO" id="3tI-2X-AQa">
-                                <rect key="frame" x="180" y="418" width="240" height="128"/>
+                                <rect key="frame" x="180" y="397" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="3nd-IJ-rRt"/>
                                     <constraint firstAttribute="height" constant="128" id="4nM-6y-Ho9"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aef-km-Fok">
+                                <rect key="frame" x="255" y="261" width="91" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Calcular"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlk-ju-WL1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -107,6 +130,11 @@
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="3tI-2X-AQa"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <exclude reference="3tI-2X-AQa"/>
                             </mask>
@@ -150,17 +178,19 @@
                                 </date>
                             </datePicker>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RZc-yI-H2U">
-                                <rect key="frame" x="30" y="560" width="540" height="30"/>
+                                <rect key="frame" x="30" y="554" width="540" height="36"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqK-ez-2l6">
-                                        <rect key="frame" x="0.0" y="0.0" width="270" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Ok"/>
                                         <connections>
                                             <segue destination="qnq-i5-33X" kind="unwind" identifier="Ok Love" unwindAction="volver:" id="cPe-lo-GdY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXd-OK-MJW">
-                                        <rect key="frame" x="270" y="0.0" width="270" height="30"/>
+                                        <rect key="frame" x="270" y="0.0" width="270" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Cancelar"/>
                                         <connections>
                                             <segue destination="qnq-i5-33X" kind="unwind" identifier="Cancel Love" unwindAction="volver:" id="x4e-4f-1iO"/>
@@ -190,6 +220,11 @@
                             <constraint firstItem="Ru9-cl-q1g" firstAttribute="top" secondItem="RZc-yI-H2U" secondAttribute="bottom" constant="10" id="uN5-z4-y18"/>
                         </constraints>
                         <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="Btp-Ob-YtJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <exclude reference="Btp-Ob-YtJ"/>
                             </mask>
@@ -232,17 +267,19 @@
                                 </date>
                             </datePicker>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="REj-1p-qr8">
-                                <rect key="frame" x="30" y="560" width="540" height="30"/>
+                                <rect key="frame" x="30" y="554" width="540" height="36"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="df2-4u-u2m">
-                                        <rect key="frame" x="0.0" y="0.0" width="270" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Ok"/>
                                         <connections>
                                             <segue destination="dhW-KX-DXU" kind="unwind" identifier="Ok Birthday" unwindAction="volver:" id="nsB-uI-NLN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRh-hV-CoU">
-                                        <rect key="frame" x="270" y="0.0" width="270" height="30"/>
+                                        <rect key="frame" x="270" y="0.0" width="270" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Cancelar"/>
                                         <connections>
                                             <segue destination="dhW-KX-DXU" kind="unwind" identifier="Cancel Birthday" unwindAction="volver:" id="rbb-HD-LgL"/>
@@ -270,6 +307,11 @@
                             <constraint firstItem="JED-Ax-giN" firstAttribute="centerX" secondItem="aQF-Zz-HCX" secondAttribute="centerX" id="zvv-vk-Rnj"/>
                         </constraints>
                         <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="JED-Ax-giN"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <exclude reference="JED-Ax-giN"/>
                             </mask>
