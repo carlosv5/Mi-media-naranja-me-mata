@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         }
         
         if let vc = segue.sourceViewController as? LoveViewController {
-            loveDate = vc.date!
+            loveDate = vc.date
             if(loveDate != nil){
             setTitle(format(loveDate!), toButton: loveButton)
             }
@@ -75,7 +75,7 @@ class ViewController: UIViewController {
             }
             else{
                 let time = loveDate!.timeIntervalSinceDate(birthdayDate!)
-                let fecha: NSDate = NSDate(timeInterval: time*2, sinceDate:NSDate())
+                let fecha: NSDate = NSDate(timeInterval: time*2, sinceDate:birthdayDate!)
                 result.text = format(fecha)
             }
         } else{
